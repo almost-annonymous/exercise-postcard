@@ -1,0 +1,66 @@
+body{
+    background: black;
+}
+/*google font css code */
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .short-stack-regular {
+    font-family: "Short Stack", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  .coming-soon-regular {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+/*postcard style*/
+.postcard {
+    background: white;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+}
+.postcard-header {
+    display: flex;
+}
+.postcard-header img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.postcard-header h1{
+    width:350px;
+    margin: 20px;
+    font-family: Short Stack;
+}
+.postcard-body{
+    display: flex;
+}
+.body-left {
+    font-family:Shadows Into Light;
+    font-size: medium;
+    width: 200px;
+    margin: 10px;
+}
+.body-right {
+    color: darkgray;
+    font-family: Coming Soon;
+    width: 200px;
+    margin: 10px;
+}
+h5 {
+    border-bottom: 2px solid darkgray;  /* Black solid bottom border */
+    padding-bottom: 5px;  /* Space for the border to appear */
+    line-height: 1;      /* Ensures there is enough space */
+  }
+.postcard-footer {
+    text-align: center;
+    padding: 10px;
+    font-family: Short Stack;
+    border: none;
+    border-bottom: 20px darkgray;
+}
